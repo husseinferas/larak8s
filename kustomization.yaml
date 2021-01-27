@@ -1,0 +1,11 @@
+resources:
+  - ./mysql/pvc.yaml
+  - ./mysql/secret.yaml
+  - ./mysql/statefulset.yaml
+  - ./mysql/service.yaml
+
+  - ./redis/deployment.yaml
+  - ./redis/service.yaml
+
+  - ./app/deployment.yaml
+  - ./app/service.yaml
